@@ -1,14 +1,4 @@
 
-## IMPORTANT INFO
-After creating the codespace, please execute 
-```bash
-chmod +x ds-*
-```
-in the terminal. 
-You only need to do this for once after the creation of the codespace.
-
----
-
 ## Overview
 ds-sim is a discrete-event simulator that has been developed primarily for leveraging scheduling algorithm design. 
 
@@ -16,9 +6,10 @@ It adopts a minimalist design explicitly taking into account modularity in that 
 
 The client-side simulator acts as a job scheduler while the server-side simulator simulates everything else including users (job submissions) and servers (job execution).
 
+Client.java found in ./Client is a custom built client that uses this simulator to schedule jobs. 
 
+It contains an algorithm that optimises turnaround time for each job scheduled. 
 ---
-
 
 ## How to run a simulation:
 1. run server `$ ds-server [OPTION]...`
