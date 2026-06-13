@@ -9,6 +9,8 @@ The client-side simulator acts as a job scheduler while the server-side simulato
 Client.java found in ./Client is a custom built client that uses this simulator to schedule jobs. 
 
 It contains an algorithm that optimises turnaround time for each job scheduled. 
+
+
 ---
 
 ## How to run a simulation:
